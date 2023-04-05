@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://images4.alphacoders.com/843/84314.jpg);
+    text-align: center;
+}
+
+/* === Estilos para o topo ================================================*/
+#topo {
+    color: white;
+    height: 100px;
+    text-shadow: 2px 2px black;
+}
+
+/* === Estilos para o menu ================================================*/
+#menu {
+    margin-left: -50px;
+    height: 100px;
+    color: white;
+}
+
+#menu li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#menu a:visited, a:link {
+    background-color: gray;
+    color: white;
+    padding: 14px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+#menu a:hover, a:active {
+    background-color: goldenrod;
+    color: white;
+}
+
+/* === Estilos para o conteúdo ===========================================*/
+#conteudo {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    height: 500px;
+    text-shadow: 2px 2px black;
+}
+
+/* === Estilos para o rodapé =============================================*/
+#rodape {
+    color: white;
+    text-shadow: 2px 2px black;
+}

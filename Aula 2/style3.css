@@ -1,0 +1,62 @@
+body {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/420/774/348/breaking-bad-tv-anime-game-of-thrones-wallpaper-d90008ed61ea1d2bd687789fa00176cd.jpg);
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* === Estilos para o topo ================================================*/
+#topo {
+    max-width: 18%;
+    text-align: center;
+    margin: 100px;
+    text-shadow: 2px 2px gray;
+}
+
+/* === Estilos para o menu ================================================*/
+#menu {
+    margin: 100px;
+}
+
+#menu li {
+    display: grid;
+}
+
+#menu a {
+    max-width: 15%;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+    opacity: 50%;
+}
+
+#menu a:visited, a:link {
+    color: white;
+}
+
+#menu a:hover, a:active {
+    background-color: orange;
+    color: white;
+    opacity: 100%;
+}
+
+/* === Estilos para o conteúdo ===========================================*/
+#conteudo {
+    position: fixed;
+    left: 72%;
+    top: 1%;
+    background-color: black;
+    width: 350px;
+    border: 15px solid orange;
+    padding: 50px;
+    margin: 20px;
+    text-shadow: 2px 2px gray;
+}
+
+/* === Estilos para o rodapé =============================================*/
+#rodape {
+    max-width: 18%;
+    text-align: center;
+    margin: 100px;
+}
