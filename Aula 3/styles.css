@@ -56,3 +56,9 @@ img {
 .front-face {
     transform: rotateY(180deg);
 }
+
+.timer {
+    font-size: 24px;
+    font-family: monospace;
+    text-align: center;
+}
