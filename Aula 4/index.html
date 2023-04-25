@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Aula de PHP</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <script>
+            function validarForm() {
+                let nome = document.getElementById('nome').value;
+                let idade = document.getElementById('idade').value;
+                
+                if (nome.trim() != "" && idade.trim() != "") {
+                    console.log('Validado');
+                    document.getElementById('F1').submit();
+                }  else {
+                    alert('Campo não preenchido.');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="formulario">
+
+            <form name="F1" id="F1" action="process.php" method="post">
+                <b>Nome:&nbsp;</b>
+                <input type="text" name="nome" id="nome">
+
+                <br><br>
+
+                <b>Idade:&nbsp;</b>
+                <input type="text" name="idade" id="idade">
+
+                <br><br>
+
+                <div class="button-container-div">
+                    <input class="botao" type="button" value="Enviar" onclick="validarForm();">
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>

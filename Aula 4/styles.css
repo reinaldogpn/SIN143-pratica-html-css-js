@@ -1,0 +1,34 @@
+* { 
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+body {
+    height: 100vh;
+    background: #060AB2;
+}
+
+input {
+    width: 80%;
+}
+
+.botao {
+    width: 200px;
+}
+
+.button-container-div {
+    text-align: center;
+}
+
+.formulario,
+.resposta {
+    width: 640px;
+    margin: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.resposta {
+    text-align: center;
+}
