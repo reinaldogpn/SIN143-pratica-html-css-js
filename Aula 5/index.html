@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Dinâmica</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="calculadora">
+
+        <form method="post" action="process.php">
+            <h1>Bem-vindo(a) à calculadora de média bem legal!</h1>
+            <p><b>Clique para adicionar um número:&nbsp;</b></p>
+            <button type="button" onclick="addNumber()">Add Número</button>
+            <br>
+
+            <div id="numbers">
+                <!-- campos de entrada numérica serão adicionados aqui -->
+            </div>
+
+            <input class="botao" type="submit" value="Calcular Média" disabled>
+            
+        </form>
+
+    </div>
+</body>
