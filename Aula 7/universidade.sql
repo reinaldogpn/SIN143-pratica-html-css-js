@@ -87,14 +87,14 @@ ALTER TABLE `endereco`
 --
 
 ALTER TABLE `aluno`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `endereco`
 --
 
 ALTER TABLE `endereco`
-  MODIFY `endereco_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `endereco_id` int(11) NOT NULL AUTO_INCREMENT;
   
 --
 -- Restrições para tabelas `aluno`
